@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.min.css">
+    <title>WeatherApp</title>
+  </head>
+  <body class="weather-body" onload="startApp()">
+    <div class="weather-container">
+      <table class="weather-table">
+        <tbody>
+          <tr class="weather-table-info">
+            <td class="align-middle">
+              <img src="" alt="" id="currentWeatherImg" />
+            </td>
+            <td class="align-middle">
+              <span id="locationLink"></span>
+            </td>
+          </tr>
+          <tr class="weather-table-info">
+            <td class="align-middle">Temperatura</td>
+            <td class="weather-right">
+              <span id="temp"></span>
+            </td>
+          </tr>
+          <tr class="weather-table-info">
+            <td class="align-middle">Wilgotność</td>
+            <td class="weather-right">
+              <span id="humidity"></span>
+            </td>
+          </tr>
+          <tr class="weather-table-info">
+            <td class="align-middle">Ciśnienie</td>
+            <td class="weather-right">
+              <span id="pressure"></span>
+            </td>
+          </tr>
+          <tr class="weather-table-info">
+            <td class="align-middle">Zachmurzenie</td>
+            <td class="weather-right">
+              <span id="clouds"></span>
+            </td>
+          </tr>
+          <tr class="weather-table-info">
+            <td class="align-middle">Prędkość wiatru</td>
+            <td class="weather-right">
+              <span id="windSpeed"></span>
+            </td>
+          </tr>
+          <tr class="weather-table-info">
+            <td class="align-middle">Wschód słońca</td>
+            <td class="weather-right">
+              <span id="sunrise"></span>
+            </td>
+          </tr>
+          <tr class="weather-table-info">
+            <td class="align-middle">Zachód słońca</td>
+            <td class="weather-right">
+              <span id="sunset"></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="/js/weatherapp.js"></script>
+  </body>
+</html>
