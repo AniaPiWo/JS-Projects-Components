@@ -2,7 +2,7 @@ const COOKIES_BTN = document.querySelector("#cookies-btn")
 const COOKIES = document.querySelector('#cookies')
 
 
- setCookie = (cName, cValue, expDays) => {
+const setCookie = (cName, cValue, expDays) => {
     console.log('clicked');
     let date = new Date();
     date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
@@ -11,7 +11,7 @@ const COOKIES = document.querySelector('#cookies')
 } 
 
 
-getCookie = (cName) => {
+const getCookie = (cName) => {
     const name = `cName=`
     const cDecoded = decodeURIComponent(document.cookie)
     const cArr = cDecoded.split(';')
