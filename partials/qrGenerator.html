@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
+    <title>QR generator</title>
+</head>
+<body class="qr-body">
+
+<div class="qr-box">
+
+    <div class="user-input-section">
+        <div class="qr-heading">
+          <h1 class="qr-title">QRcodes</h1>
+          <h2 class="qr-sub-title">Generate QRCode for anything!</h2>
+        </div>
+
+        <div class="qr-user-input">
+          <input type="text" placeholder="Type something..." name="input_text" id="input_text" autocomplete="off">
+          <button class="qr-button" type="submit">Generate QR Code<i class="fa-solid fa-rotate"></i></button>
+        </div>
+      </div>
+
+      <div class="qr-code-container">
+        <div class="qr-code" style></div>
+      </div>
+
+    </div>    
+
+    <script src="../js/qrGenerator.js"></script>       
+</body>
+</html>
