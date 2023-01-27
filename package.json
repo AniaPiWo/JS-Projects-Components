@@ -1,0 +1,22 @@
+{
+  "name": "projekty-js",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniaPiWo/JS-Projects-Components.git"
+  },
+  "author": "APW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AniaPiWo/JS-Projects-Components/issues"
+  },
+  "homepage": "https://github.com/AniaPiWo/JS-Projects-Components#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
+  }
+}
