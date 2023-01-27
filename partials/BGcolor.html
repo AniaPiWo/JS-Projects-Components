@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color BG switch</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+
+      .body-BG {
+        background-color: white;
+        color: black;
+      }
+
+      .widget-BG {
+        text-align: center;
+      }
+
+      .widget-BG p {
+        margin-top: 200px;
+        margin-bottom: 16px;
+        font-size: 48px;
+      }
+
+      .widget-BG span {
+        font-family: monospace;
+      }
+
+      .widget-BG button {
+        padding: 15px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+        border-radius: 15px;
+        background-color: rgb(232, 232, 232);
+      }
+
+    </style>
+  </head>
+  <body class="body-BG">
+
+
+    <div class="widget-BG">
+      <p>Background color: <span class="color-BG">#ffffff</span></p>
+      <button type="button" class="change-color">Change color</button>
+    </div>
+
+    <script src="../js/BGcolor.js"></script>
+  </body>
+</html>
